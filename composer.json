@@ -1,0 +1,15 @@
+{
+    "name": "f4ri4sw4lter/tienda_online",
+    "description": "app php para mostrar stock de productos.",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "App\\Controllers\\": "app/controllers/",
+            "App\\Views\\": "app/views/",
+            "App\\Models\\": "app/models/",
+            "App\\Libs\\": "app/libs/"
+        }
+    },
+    "require": {}
+}
