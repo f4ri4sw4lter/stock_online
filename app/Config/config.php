@@ -1,6 +1,7 @@
 <?php
 
-define('HOSTNAME','');
-define('DATABASE','');
-define('DBUSER','');
-define('DBPASS','');
+define('HOST','localhost');
+define('DATABASE','tienda_online');
+define('USER','root');
+define('PASS','');
+define('URL','http://localhost/proyectos/tienda_online/');

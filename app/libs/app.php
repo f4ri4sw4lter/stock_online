@@ -15,6 +15,7 @@ class App{
         if(file_exists($archivoController)){ //Si existe el controlador
             require_once  $archivoController;
             $controller = new $this->url[0]; 
+            $controller->loadModel($this->url[0]);
 
             if(isset($this->url[1])){   //Si existe el metodo
                 $controller->{$this->url[1]}();
