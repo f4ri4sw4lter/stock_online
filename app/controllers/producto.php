@@ -29,7 +29,6 @@ class Producto extends Controller{
         }else{
             echo 'NO se agrego Producto';
         }
-
         
     }
 }
